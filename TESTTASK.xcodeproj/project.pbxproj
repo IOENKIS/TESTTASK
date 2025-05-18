@@ -10,9 +10,22 @@
 		182051632DD43C3400FEF2AF /* TESTTASK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESTTASK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		18778AC22DD9C9AB008D3ED7 /* Exceptions for "TESTTASK" folder in "TESTTASK" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 182051622DD43C3400FEF2AF /* TESTTASK */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		182051652DD43C3400FEF2AF /* TESTTASK */ = {
+		18778AAC2DD9C9AB008D3ED7 /* TESTTASK */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				18778AC22DD9C9AB008D3ED7 /* Exceptions for "TESTTASK" folder in "TESTTASK" target */,
+			);
 			path = TESTTASK;
 			sourceTree = "<group>";
 		};
@@ -32,7 +45,7 @@
 		1820515A2DD43C3400FEF2AF = {
 			isa = PBXGroup;
 			children = (
-				182051652DD43C3400FEF2AF /* TESTTASK */,
+				18778AAC2DD9C9AB008D3ED7 /* TESTTASK */,
 				182051642DD43C3400FEF2AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				182051652DD43C3400FEF2AF /* TESTTASK */,
+				18778AAC2DD9C9AB008D3ED7 /* TESTTASK */,
 			);
 			name = TESTTASK;
 			packageProductDependencies = (
@@ -255,6 +268,8 @@
 				DEVELOPMENT_TEAM = XDGNVQNR94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TESTTASK/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to take your profile photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +299,8 @@
 				DEVELOPMENT_TEAM = XDGNVQNR94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TESTTASK/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to take your profile photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

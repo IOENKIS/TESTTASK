@@ -22,6 +22,7 @@ struct NoInternetOverlay: View {
                         .multilineTextAlignment(.center)
                     Button("Try again", action: retry)
                         .primaryButton()
+                        .frame(width: 140)
                 }
                 .padding()
             )

@@ -32,6 +32,8 @@ struct PhotoUploadField: View {
                 
                 Button("Upload") { showDialog = true }
                     .secondaryButton()
+                    .frame(width: 100)
+                    .padding(.horizontal)
             }
             .frame(height: 56)
             .background(

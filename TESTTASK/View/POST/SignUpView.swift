@@ -73,9 +73,11 @@ struct SignUpView: View {
                 .padding(.horizontal, 16)
                 .padding(.top, 32)
             }
-            .onChange(of: focusedField) { field in
-                guard let field else { return }
-                withAnimation { proxy.scrollTo(field, anchor: .center) }
+            .onChange(of: focusedField) { _old, new in
+                guard let new else { return }
+                withAnimation {
+                    proxy.scrollTo(new, anchor: .center)
+                }
             }
         }
         .fullScreenCover(item: $regResult) { res in
@@ -119,6 +121,7 @@ private extension SignUpView {
     var signUpButton: some View {
         Button("Sign up", action: validateForm)
             .primaryButton(enabled: isFormValid)
+            .frame(width: 140)
     }
 }
 

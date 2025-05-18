@@ -37,6 +37,7 @@ struct RegistrationOverlay: View {
 
                 Button(buttonTitle, action: dismiss)
                     .primaryButton()
+                    .frame(width: 140)
             }
 
             VStack {
